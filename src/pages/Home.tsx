@@ -134,9 +134,9 @@ const Home = () => {
               <div className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all">
                 <div className="relative h-56 overflow-hidden">
                   <img src={service.img} alt={service.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                  <Link to="/get-a-quote" className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
                     <span className="text-white font-semibold">Book Now</span>
-                  </div>
+                  </Link>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-[#263238] mb-2">{service.title}</h3>
